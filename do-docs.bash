@@ -35,7 +35,7 @@ colcon build \
 DOCS_DIR=src/docs/
 mkdir -p $DOCS_DIR
 cat << "EOF" > $DOCS_DIR/index.md
-# PX4 Ariel Swarm Reconstruction 
+# PX4 Aerial Swarm Reconstruction 
 
 Welcome to the final project page.  
 
