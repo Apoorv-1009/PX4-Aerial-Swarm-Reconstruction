@@ -1,4 +1,4 @@
-![CICD Workflow status](https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/graph/badge.svg?token=QapVFaDHVu)](https://codecov.io/gh/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction)  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![CICD Workflow status](https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/Apoorv-1009/PX4-Swarm-City-Mapper/graph/badge.svg?token=QapVFaDHVu)](https://codecov.io/gh/Apoorv-1009/PX4-Swarm-City-Mapper)  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # PX4-Aerial-Swarm-Reconstruction
 This project involves deploying multiple PX4 drones equipped with stereo cameras in a simulated city environment in Gazebo. The drones collaboratively map the city, generating a point cloud representation of the environment. The resulting point cloud is saved and can be visualized in RViz, providing a comprehensive 3D map of the simulated city.
@@ -16,7 +16,7 @@ Product Dev Notes: [Link](https://docs.google.com/document/d/1IhdOAMICzZZBzhB9_N
 Product Tracking Sheet: [Link](https://docs.google.com/spreadsheets/d/1d-81s3KT0pe81IKDCRShrfuD6AH13XsJ9yQLLJY3_XI/edit?usp=sharing) <br>
 
 # Phase 2
-As a part of Phase 2 of this project, we were able to control the swarm to do a controller sweep of the grid world. Due to namespace issues, the pointcloud data is unavailable. However, the swarm controller works well, serving as a foundation for collaborative swarm mapping. <br>
+As a part of Phase 2 of this project, we were able to control the swarm to do a controlled sweep of the grid world. Due to namespace issues, the pointcloud data is unavailable. However, the swarm controller works well, serving as a foundation for collaborative swarm mapping. <br>
 All documents pertaining to this phase can be found under `UML/revised` <br>
 Product Dev Notes: [Link](https://docs.google.com/document/d/1IhdOAMICzZZBzhB9_Nkyce7AI6Z4n4CMd4ubZWPyqKw/edit?usp=sharing) <br>
 Product Tracking Sheet: [Link](https://docs.google.com/spreadsheets/d/1d-81s3KT0pe81IKDCRShrfuD6AH13XsJ9yQLLJY3_XI/edit?usp=sharing) <br>
@@ -241,7 +241,7 @@ echo $? > ../../results/clangtidy_output.txt
 ```
 
 # Doxygen
-To generate Docs for the project, run the folling command in the root of the directory:
+To generate Docs for the project, run the following command in the root of the directory:
 ```bash
 ./do-docs.bash
 ```
